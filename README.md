@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WordPress Heroku
 
 This project is a template for getting [WordPress](http://wordpress.org/) up and running on [Heroku](http://www.heroku.com/). It comes with [PostgreSQL for WordPress](http://wordpress.org/extend/plugins/postgresql-for-wordpress/) pre-installed in order to use Heroku's existing Postgres backend.
@@ -114,3 +115,7 @@ Once the DNS A records propagate, then simply test out your change by hitting th
 The last step is updating your WordPress installation to recognize the new domain.  You'll need to open up the WordPress Admin Dashboard and go to Settings --> General.  From there just update the URL for the WordPress address and you're done.
 
 If you find yourself running into problems, there is a guide posted in the Heroku Docs which can be found [here](https://devcenter.heroku.com/articles/custom-domains).
+=======
+tdp-wp
+======
+>>>>>>> 51aaf6b6d967ade15d5180a5ebc0dea8daa52f28
