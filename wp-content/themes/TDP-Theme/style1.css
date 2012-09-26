@@ -1,0 +1,202 @@
+/*  
+Theme Name: Standard Child Theme Kit
+Theme URI: https://github.com/eightbit/standard-child-theme-kit
+Version: Preview 3
+Description: This is a "getting started" child theme kit for Standard.
+Author: 8BIT
+Author URI: http://8bit.io
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: standard
+*/
+
+/* ------------------------------------------------------------------------ Import Standard Styles */
+
+@import url( '../standard/style.css' );
+
+/* ------------------------------------------------------------------------ Customizations */
+
+/*Body*/
+
+body {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+
+/*Navigation*/
+
+#header-widget .widget ul li {
+display: inline;
+padding-left: 12px;
+font-family: 'Oswald', sans-serif;
+font-weight: 400; 
+font-size: 25px;
+letter-spacing: -.3px;
+}
+.widget ul li a {
+    color: #a2a2a1;
+}
+
+.widget ul li a:hover {
+	color: #666666;
+}
+
+#header-widget {
+	margin-top: 28px;
+}
+
+
+#menu-above-header { display: none ; }
+
+.navbar-inner {visibility:hidden;}
+
+
+#hgroup {
+    padding: 20px 0;}
+
+.home .breadcrumb { display: none; }
+
+/*content*/
+
+.post-title {display:none;}
+.post-header {display: none;}
+.post .entry-content, .post .entry-summary {
+    padding: 0 0px 0px;
+}
+
+p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 22.5px;
+    margin: 0 0 9px;
+    font-weight: 300;
+}
+
+.post .entry-content h1, .post .entry-content h2, .post .entry-content h3, .post .entry-content h4, .post .entry-content h5, .post .entry-content h6 {
+  	color: #A2A2A1;
+    font-family: 'Oswald',sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 140%;
+    margin-bottom: 10px;
+    text-shadow: -1px 1px 0 #686868;
+    text-transform: uppercase;
+    text-align: center;
+    background: url("images/line.jpg") repeat-x center;
+    padding: 1px;
+    margin: 2px;
+}
+
+.post .entry-content h1 {
+	margin: 40px 0 40px 0;
+}
+
+.post .entry-content h3 {
+	color: #555555;
+    font-family: 'Oswald',sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: -.3px;
+    line-height: 140%;
+    margin-bottom: 0px;
+    text-shadow: none;
+    text-transform: uppercase;
+    text-align: left;
+    background: none;
+}
+
+.post .entry-content h4 {
+	color: #555555;
+    font-family: 'Oswald',sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -.1px;
+    line-height: 140%;
+    margin-bottom: 0px;
+    text-shadow: none;
+    text-transform: none;
+    text-align: left;
+    background: none;
+}
+
+blockquote {
+	background: #f7f7f7;
+    border-left: none;
+    margin: 0 0 18px;
+    padding: 0 6px 0 8px;}
+
+a {
+    color: #b3071e;
+}
+
+a:hover {
+    color: #eb0f2d;
+}
+
+/*footer*/
+
+#footer {
+    background: none;
+    padding: 0;
+}
+
+#sub-floor {
+    background: none;
+    padding: 10px 0;
+}
+
+#sub-floor #credit a {
+    color: #b3071e;
+}
+
+#sub-floor #credit a:hover {
+    color: #eb0f2d;
+}
+
+/* ------------------------------------------------------------------------ 6. Posts */
+
+.post, #comments, #pings, #no-comments, #respond {
+	background: #fff;
+	margin: 0 0 20px 0;
+	position: relative;
+	border-radius: none;
+	-moz-border-radius: none;
+	-webkit-border-radius: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow:none;
+	-webkit-box-sizing: border-box;	
+    -moz-box-sizing: border-box;  
+    box-sizing: border-box;         
+}
+
+
+/* ------------------------------------------------------------------------ Media Queries */
+
+/* Smartphones */
+@media (max-width: 480px) {
+
+}
+
+/* Tablet and Mobile */
+@media (max-width: 979px) {	
+			
+}
+
+/* Mobile to Tablet */
+@media only screen and (max-width: 767px) {
+	
+}
+
+
+/* Landscape Tablets */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+/* Desktop */
+@media (min-width: 980px) {
+	
+}
+

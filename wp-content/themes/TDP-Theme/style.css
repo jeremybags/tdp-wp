@@ -1,0 +1,450 @@
+/*  
+Theme Name: Standard Child Theme Kit
+Theme URI: https://github.com/eightbit/standard-child-theme-kit
+Version: Preview 3
+Description: This is a "getting started" child theme kit for Standard.
+Author: 8BIT
+Author URI: http://8bit.io
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: standard
+*/
+
+/* ------------------------------------------------------------------------ Import Standard Styles */
+
+@import url( '../standard/style.css' );
+
+/* ------------------------------------------------------------------------ Customizations */
+
+/*Body*/
+
+html {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+body {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+
+/*Navigation*/
+
+.navbar-inner, .navbar .fill {
+    background-color: transparent !important;
+    background-image: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow:none;
+}
+
+.navbar .nav > li > a {
+    font-family: 'Gudea', sans-serif;
+    text-shadow: none;
+    font-size: 22px;
+    letter-spacing: -1px;
+}
+
+.navbar .nav > li > a:hover {
+    color: #333333;
+}
+
+#menu-under-header {
+    margin-top: -52px;
+}
+
+.menu-header-container {
+    float: right;
+}
+
+.navbar .nav {
+    float: right;
+}
+
+.dropdown-menu a {
+    font-size: 20px;
+    line-height: 18px;
+    padding: 5px 23px;
+}
+
+#header-widget .widget ul li {
+padding-left: 1px;
+font-family: 'Gudea', sans-serif;
+font-weight: 400; 
+font-size: 25px;
+letter-spacing: -.3px;
+}
+.widget ul li a {
+    color: #333333;
+}
+
+.widget ul li a:hover {
+	color: #333333;
+}
+
+#header-widget {
+	margin-top: 112px !important;
+}
+
+
+#menu-above-header { display: none ; }
+
+.navbar-inner {visibility:visible;}
+
+
+#hgroup {
+    padding: 20px 0;}
+
+.home .breadcrumb { display: none; }
+
+/*content*/
+.post-meta {
+    border-top: 10px solid #EEEEEE;
+}
+
+/*.post-title {display:none;}
+
+.post .entry-content, .post .entry-summary {
+    padding: 0 0px 0px;
+}*/
+
+.page .post-header { display: none; }
+
+p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 22.5px;
+    margin: 0 0 9px;
+    font-weight: 300;
+}
+.post-title {
+    font-size: 32px;
+    font-family: 'Gudea', sans-serif;
+    font-weight: bold;
+    letter-spacing: -.5px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+
+.post .entry-content h1, .post .entry-content h2, .post .entry-content h3, .post .entry-content h4, .post .entry-content h5, .post .entry-content h6 {
+  	color: #333333;
+    font-family: 'Gudea', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 140%;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+   /* border-top: 1px dotted #777777;*/
+    /*background: url("images/line.jpg") repeat-x center;*/
+    padding: 1px;
+}
+
+.solid {
+    border-top: 5px solid #dddddd;
+    text-align: center;
+    margin: 60px 0 -20px;
+}
+
+.solid .heading {
+    background-color: white;
+    display: inline;
+    padding: 0 15px;
+    position: relative;
+    top: -33px;
+}
+
+.post .entry-content h1 {
+	margin: 0;
+    padding: 1px 16px;
+}
+h1  {
+    color: #333333;
+    font-family: 'Gudea', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 140%;
+    margin-bottom: 10px;
+    text-shadow: -2px 2px 2px #CFCFCF;
+    text-transform: uppercase;
+    text-align: center;
+   /* border-top: 1px dotted #777777;*/
+    /*background: url("images/line.jpg") repeat-x center;*/
+    padding: 1px;
+}
+
+h1 {
+    margin: 0;
+    padding: 1px 16px;
+}
+
+.post .entry-content h2 {
+    color: #000000;
+    margin: 0;
+    padding: 20px 0 20px 0;
+    font-size: 32px;
+    font-weight: bold;
+    background: none;
+    text-transform: none;
+    letter-spacing: -.3px;
+    text-shadow: none;
+
+}
+.post .entry-content h3 {
+	color: #333333;
+    font-family: 'Gudea', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 140%;
+    margin-bottom: 5px;
+    text-shadow: none;
+    text-transform: none;
+    text-align: center;
+    background: none;
+}
+
+.post .entry-content h4 {
+	color: #333333;
+    font-family: 'Gudea', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: -.1px;
+    line-height: 140%;
+    margin-bottom: 0px;
+    text-shadow: none;
+    text-transform: none;
+    text-align: left;
+    background: none;
+}
+.post .entry-content h5 {
+    color: #333333;
+    font-family: 'Gudea', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: -.1px;
+    line-height: 140%;
+    margin-bottom: 4px;
+    text-shadow: none;
+    text-transform: none;
+    text-align: left;
+    background: none;
+}
+
+.post .entry-content h6 {
+    color: #777777;
+    font-family: 'Gudea', sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+    letter-spacing: -.3px;
+    line-height: 140%;
+    margin: 0px 0 20px 0;
+    padding: 20px 0 20px 0;
+    text-shadow: none;
+    text-transform: none;
+    text-align: center;
+    background: none;
+    /*padding: 1px;*/
+}
+
+blockquote p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22.5px;
+    margin: 14px;
+}
+
+blockquote {
+	background: #f7f7f7;
+    border-left: none;
+    margin: 0 0 18px;
+    padding: 0 6px 0 8px;
+    overflow: hidden;
+}
+
+a {
+    color: #ff9b07;
+}
+
+a:hover {
+    color: #ffb10c;
+}
+
+/*footer*/
+
+#footer {
+    background: none;
+    padding: 0;
+}
+
+#sub-floor {
+    background: none;
+    padding: 10px 0;
+}
+
+#sub-floor #credit a {
+    color: #ff9b07;
+}
+
+#sub-floor #credit a:hover {
+    color: #ffb10c;
+}
+
+/*Bootstrap css modifcations*/
+
+.row-fluid {
+    margin-top: 20px;
+}
+
+.well {
+    background-color: #eeeeee;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    border: none;
+}
+
+hr {
+    border-width: 5px 0;
+    margin: 10px 0;
+}
+
+.dropdown-menu li > a:hover,
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover {
+    background-color: #eeeeee;
+}
+
+.nav-tabs > li > a, .nav-pills > li > a {
+    line-height: 14px;
+    margin-right: 0;
+    padding-left: 8px;
+    padding-right: 7px;
+}
+
+/*  Video Player on front page   */
+
+#video-player {
+    height: 281px;
+    background-color: #373737;
+    margin: auto auto;
+}
+
+#player {
+    margin: auto auto;
+    width: 500px;
+}
+
+#wrapper {
+    padding: 60px 0 40px;
+}
+
+.row-fluid > .span6 {
+    text-align: center;
+}
+
+/*.home p {
+    text-align: center;
+}*/
+
+.row-fluid {
+    margin-top: 80px;
+}
+
+
+/* ------------------------------------------------------------------------ 6. Posts */
+
+.post, #comments, #pings, #no-comments, #respond {
+	background: #fff;
+	margin: 0 0 20px 0;
+	position: relative;
+	border-radius: none;
+	-moz-border-radius: none;
+	-webkit-border-radius: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow:none;
+	-webkit-box-sizing: border-box;	
+    -moz-box-sizing: border-box;  
+    box-sizing: border-box;         
+}
+
+
+/* ------------------------------------------------------------------------ Media Queries */
+
+/* Smartphones */
+@media (max-width: 480px) {
+
+#header-widget {
+    margin-top: 0;
+}
+
+.nav-tabs > li > a, .nav-pills > li > a {
+    line-height: 10px;
+    margin-right: 2px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+#header-widget .widget ul li {
+    font-family: 'Gudea', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+}
+.solid {
+    border-top: 3px solid #dddddd;
+    margin: 40px 0 0;
+}
+
+.solid .heading {
+    top: -20px;
+    padding: 0 4px;
+}
+
+.post .entry-content h1 {
+        font-size: 24px;
+        margin: 5px 0 10px 0;
+        padding: 1px 4px;
+}
+.post .entry-content h2 {
+        font-size: 18px;
+        margin: 5px 0 10px 0;
+}
+.post .entry-content h6 {
+        font-size: 14px;
+        margin: 5px 0 12px 0;
+}
+}
+
+/* Tablet and Mobile */
+@media (max-width: 979px) {	
+
+/*#header-widget .widget ul li {
+    font-size: 20px;
+}*/
+			
+}
+
+/* Mobile to Tablet */
+@media only screen and (max-width: 767px) {
+
+	
+}
+
+
+/* Landscape Tablets */
+@media (min-width: 768px) and (max-width: 979px) {
+#header-widget .widget ul li {
+    font-size: 20px;
+}
+
+/* Desktop */
+@media (min-width: 980px) {
+	
+}
+
