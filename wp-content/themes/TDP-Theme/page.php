@@ -10,7 +10,6 @@
 <?php $presentation_options = get_option( 'standard_theme_presentation_options' ); ?>
 
 <div id="wrapper">
-	<div id="video-player"> <div id="player"> <iframe src="http://player.vimeo.com/video/50073448" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> </div> </div>
 	<div class="container">
 		<div class="row">
 
@@ -34,12 +33,13 @@
 										<?php the_content(); ?>
 									</div><!-- /.entry-content -->
 								</div><!-- /.entry-content -->
+								<?php get_template_part( 'breadcrumbs' ); ?>
 							</div> <!-- /#post- -->
 						<?php } // end while ?>
 					<?php } // end if ?>
 					<?php comments_template( '', true ); ?>
 				</div><!-- /#main -->
-			<?php get_template_part( 'breadcrumbs' ); ?>
+			
 				<?php if ( 'right_sidebar_layout' == $presentation_options['layout'] ) {  ?>
 					<?php get_sidebar(); ?>
 				<?php } // end if ?>
