@@ -23,7 +23,7 @@ html {
 }
 
 body {
-    background: none repeat scroll 0 0 #ffffff;
+    background: none repeat scroll 0 0 #ebebeb;
 }
 
 .post p {
@@ -31,6 +31,17 @@ body {
     margin-bottom: 20px;
 }
 
+#header {
+    min-height: 20px;
+    background: #ffffff;
+    -webkit-box-shadow: inset 0 2px 19px 0 rgba(0, 0, 0, 0.2),transparent 0 0 0,transparent 0 0 0,transparent 0 0 0,transparent 0 0 0;
+    -moz-box-shadow: inset  0 2px 19px 0 rgba(0, 0, 0, 0.2),transparent 0 0 0,transparent 0 0 0,transparent 0 0 0,transparent 0 0 0;
+    box-shadow: 0 2px 19px 0 rgba(0, 0, 0, 0.2),transparent 0 0 0,transparent 0 0 0,transparent 0 0 0,transparent 0 0 0;
+    border-bottom: solid 1px #ebebeb;
+/*    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);*/
+}
 
 /*Navigation*/
 
@@ -76,6 +87,8 @@ body {
     font-size: 22px;
     letter-spacing: -1px;
     color: #000000;
+    font-weight: 200;
+    line-height: 1;
 }
 
 .navbar .nav > li > a:hover {
@@ -98,6 +111,8 @@ body {
     font-size: 17px;
     line-height: 20px;
     padding: 5px 23px;
+    font-weight: 200;
+    line-height: 1;
 }
 
 #header-widget .widget ul li {
@@ -140,8 +155,8 @@ letter-spacing: -.3px;
 .post .entry-content, .post .entry-summary {
     padding: 0 0px 0px;
 }*/
-
-.page .post-header { display: none; }
+/*
+.page .post-header { display: none; }*/
 
 p {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -151,16 +166,16 @@ p {
     font-weight: 300;
 }
 .post-title {
-    font-size: 32px;
+    font-size: 35px;
     font-family: 'Gudea', sans-serif;
-    font-weight: bold;
-    letter-spacing: -.5px;
-    line-height: 1.2;
+    font-weight: 200;
+    letter-spacing: -1.5px;
+    line-height: 1;
     margin-bottom: 5px;
 }
 
 .post .entry-content h1, .post .entry-content h2, .post .entry-content h3, .post .entry-content h4, .post .entry-content h5, .post .entry-content h6 {
-  	color: #333333;
+  	color: #000000;
     font-family: 'Gudea', sans-serif;
     font-size: 40px;
     font-weight: bold;
@@ -200,9 +215,9 @@ h1  {
     letter-spacing: -1px;
     line-height: 140%;
     margin-bottom: 10px;
-    text-shadow: -2px 2px 2px #CFCFCF;
+/*    text-shadow: -2px 2px 2px #CFCFCF;
     text-transform: uppercase;
-    text-align: center;
+    text-align: center;*/
    /* border-top: 1px dotted #777777;*/
     /*background: url("images/line.jpg") repeat-x center;*/
     padding: 1px;
@@ -392,24 +407,76 @@ hr {
     margin-top: 80px;
 }
 
+.breadcrumb {
+  padding: 7px 14px;
+  margin: 0 0 18px;
+  list-style: none;
+  background-color: #ebebeb;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-repeat: repeat-x;
+  filter: progid:none;
+  border: none;
+  border-top: 3px #e1e0e0 solid;
+  border-bottom: 3px #e1e0e0 solid;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background: #ebebeb;
+}
+.breadcrumb li {
+    font-size: 20px;
+    font-family: 'Gudea', sans-serif;
+    font-weight: 200;
+    display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+
+  *zoom: 1;
+  text-shadow: 0 1px 0 #ffffff;
+}
+
+.breadcrumb .divider {
+  padding: 0 5px;
+  color: #ff9b07;
+}
+
+#sub-floor #credit {
+    font-family: 'Gudea', sans-serif;
+    color: #666666;
+    padding: 10px 0;
+    text-align: right;
+}
+
+.well {
+background-color: rgba(255, 255, 255, 0.22);
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+border: #E6E3E3 solid 1px;
+}
 
 /* ------------------------------------------------------------------------ 6. Posts */
 
 .post, #comments, #pings, #no-comments, #respond {
-	background: #fff;
-	margin: 0 0 20px 0;
-	position: relative;
-	border-radius: none;
-	-moz-border-radius: none;
-	-webkit-border-radius: none;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow:none;
-	-webkit-box-sizing: border-box;	
-    -moz-box-sizing: border-box;  
-    box-sizing: border-box;         
+    -webkit-box-shadow: inset 0 2px 19px 0 rgba(0, 0, 0, 0.2),transparent 0 0 0,transparent 0 0 0,transparent 0 0 0,transparent 0 0 0;
+    -moz-box-shadow: inset  0 2px 19px 0 rgba(0, 0, 0, 0.2),transparent 0 0 0,transparent 0 0 0,transparent 0 0 0,transparent 0 0 0;
+    box-shadow: 0 2px 19px 0 rgba(0, 0, 0, 0.2),transparent 0 0 0,transparent 0 0 0,transparent 0 0 0,transparent 0 0 0;   
+    border: solid 1px #ebebeb;   
 }
 
+.post-header-meta {
+    color: #999;
+    margin: 0;
+    font-weight: 200;
+}
 
 /* ------------------------------------------------------------------------ Media Queries */
 
