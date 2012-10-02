@@ -177,16 +177,20 @@ p {
 .post .entry-content h1, .post .entry-content h2, .post .entry-content h3, .post .entry-content h4, .post .entry-content h5, .post .entry-content h6 {
   	color: #000000;
     font-family: 'Gudea', sans-serif;
-    font-size: 40px;
+    font-size: 65px;
     font-weight: bold;
-    letter-spacing: -1px;
+    letter-spacing: -3px;
     line-height: 140%;
     margin-bottom: 10px;
-    text-transform: uppercase;
+   /* text-transform: uppercase;*/
     text-align: center;
    /* border-top: 1px dotted #777777;*/
     /*background: url("images/line.jpg") repeat-x center;*/
     padding: 1px;
+}
+
+.entry-content h1 {
+    text-shadow: 0 1px 0 white;
 }
 
 .solid {
@@ -481,6 +485,8 @@ border: #E6E3E3 solid 1px;
     border: none; 
 }
 
+
+
 /* ------------------------------------------------------------------------ 6. Posts */
 
 .post, #comments, #pings, #no-comments, #respond {
@@ -494,6 +500,14 @@ border: #E6E3E3 solid 1px;
     color: #999;
     margin: 0;
     font-weight: 200;
+}
+
+.post-title a, .post-title a:visited {
+    color: #000000;
+}
+
+.post-title a, .post-title a:hover {
+    color: #555555;
 }
 
 /* ------------------------------------------------------------------------ Media Queries */
