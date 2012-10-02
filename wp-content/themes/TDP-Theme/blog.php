@@ -33,7 +33,7 @@
 
 
 			
-				<?php get_template_part( 'breadcrumbs' ); ?>
+				
 				
 				<?php if ( is_archive() ) { ?>                 
 	                <div id="archive-page-title"> 
@@ -75,6 +75,7 @@
 							<p><?php _e( 'No results were found.', 'standard' ); ?></p>
 							<?php get_search_form(); ?>
 						</div><!-- .entry-content -->
+						<?php get_template_part( 'breadcrumbs' ); ?>
 					</article><!-- #post-0 -->
 					
 				<?php } // end if/else ?>
