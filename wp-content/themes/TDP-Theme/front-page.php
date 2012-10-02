@@ -11,7 +11,16 @@ Template Name: Front Page
 <?php $presentation_options = get_option( 'standard_theme_presentation_options' ); ?>
 
 <div id="wrapper">
-	<div id="video-player"> <div id="player"> <iframe src="http://player.vimeo.com/video/50073448" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> </div> </div>
+	<div class="container" id="player">
+	<div class="row-fluid">
+  <div class="span12">
+    <div class="row-fluid">
+      <div class="span6"><h1>discover.</h1><h1>build.</h1><h1>succeed.</h1></div>
+      <div class="span6"><iframe src="http://player.vimeo.com/video/48627492" width="460" height="259" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/48627492">paisley driving the boat</a> from <a href="http://vimeo.com/jeremyandapril">Jeremy Bagwell</a> on <a href="http://vimeo.com">Vimeo</a>.</p></div>
+    </div>
+  </div>
+</div></div>
+	<!-- <div id="video-player"> <div id="player"> <iframe src="http://player.vimeo.com/video/50073448" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> </div> </div> -->
 	<div class="container">
 		<div class="row">
 
