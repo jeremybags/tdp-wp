@@ -342,9 +342,9 @@ a:hover {
 
 /*Bootstrap css modifcations*/
 
-.row-fluid {
+/*.row-fluid {
     margin-top: 20px;
-}
+}*/
 
 .well {
     background-color: #eeeeee;
@@ -380,15 +380,25 @@ hr {
 
 /*  Video Player on front page   */
 
-#video-player {
+/*#video-player {
     height: 281px;
     background-color: #cccccc;
     margin: auto auto;
-}
+}*/
 
+#player h1 {
+    font-size: 62px;
+    line-height: 1.2;
+    text-align: left;
+    font-family: 'Gudea', sans-serif;
+    font-weight: 200;
+    color: black;
+    text-shadow: 0 1px 0 white;
+}
 #player {
     margin: auto auto;
-    width: 500px;
+    margin-bottom: 40px;
+/*    width: 940px;*/
 }
 
 #wrapper {
@@ -403,9 +413,9 @@ hr {
     text-align: center;
 }*/
 
-.row-fluid {
+/*.row-fluid {
     margin-top: 80px;
-}
+}*/
 
 .breadcrumb {
   padding: 7px 14px;
@@ -461,6 +471,14 @@ background-color: rgba(255, 255, 255, 0.22);
 -moz-box-shadow: none;
 box-shadow: none;
 border: #E6E3E3 solid 1px;
+}
+
+.home .post {
+    background: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;   
+    border: none; 
 }
 
 /* ------------------------------------------------------------------------ 6. Posts */
