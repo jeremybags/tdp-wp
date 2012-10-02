@@ -33,8 +33,8 @@
 										<?php the_content(); ?>
 									</div><!-- /.entry-content -->
 								</div><!-- /.entry-content -->
-								<?php get_template_part( 'breadcrumbs' ); ?>
 							</div> <!-- /#post- -->
+							<?php get_template_part( 'breadcrumbs' ); ?>
 						<?php } // end while ?>
 					<?php } // end if ?>
 					<?php comments_template( '', true ); ?>
