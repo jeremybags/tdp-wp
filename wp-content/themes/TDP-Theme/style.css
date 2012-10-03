@@ -23,7 +23,7 @@ html {
 }
 
 body {
-    background: none repeat scroll 0 0 #ebebeb;
+    background: url("/wp-content/themes/tdp-theme/images/bg.png") repeat scroll 0 0;
 }
 
 .post p {
@@ -402,6 +402,9 @@ hr {
 #player {
     margin: auto auto;
     margin-bottom: 40px;
+/*    background: rgba(255, 255, 255, 0.33);
+    border: rgba(12, 12, 12, 0.05) solid 2px;
+    box-shadow: 0px 0px 11px rgba(255, 255, 255, 0.3);*/
 /*    width: 940px;*/
 }
 
@@ -515,7 +518,7 @@ border: #E6E3E3 solid 1px;
 /* Smartphones */
 @media (max-width: 480px) {
 
-#header-widget {
+/*#header-widget {
     margin-top: 0;
 }
 
@@ -553,7 +556,7 @@ border: #E6E3E3 solid 1px;
 .post .entry-content h6 {
         font-size: 14px;
         margin: 5px 0 12px 0;
-}
+}*/
 }
 
 /* Tablet and Mobile */
@@ -574,9 +577,9 @@ border: #E6E3E3 solid 1px;
 
 /* Landscape Tablets */
 @media (min-width: 768px) and (max-width: 979px) {
-#header-widget .widget ul li {
+/*#header-widget .widget ul li {
     font-size: 20px;
-}
+}*/
 
 /* Desktop */
 @media (min-width: 980px) {
